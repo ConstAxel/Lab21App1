@@ -47,7 +47,9 @@ namespace Lab21App1
         }
         static void Main(string[] args)
         {
+            Console.Write("Введите длину участка: ");
             a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите ширину участка: ");
             b = Convert.ToInt32(Console.ReadLine());
 
             garden = new int[a, b];
